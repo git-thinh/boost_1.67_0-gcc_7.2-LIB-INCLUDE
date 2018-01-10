@@ -25,6 +25,7 @@ Boost building
 	Open Command Prompt and navigate to H:\boost\boost_1_67_0.
 	Run
 	b2 --build-dir="H:\boost\boost_1_67_0\build" --prefix="H:\boost\boost_1_67_0-build-gcc_7_2" toolset=gcc
+	b2 --build-dir="H:\boost\boost_1_67_0\build" --prefix="H:\boost\boost_1_67_0-build-gcc_7_2" toolset=gcc install
  
 Project setup
 	Add include folder, i.e. H:\boost\boost_1_67_0-build-gcc_7_2\include\boost-1_60.
